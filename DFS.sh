@@ -18,7 +18,10 @@ declare -i i=0
         do
             generateTreeDFS $level $i
             let i++
-        done
+            done
         cd ..
     fi
+}
+{
+    each "Hello World\n"
 }
